@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:ui/views/screens/column_layout.dart';
 import 'package:ui/views/screens/images.dart';
+import 'package:ui/views/screens/row_layout.dart';
 import 'package:ui/views/screens/text_detail.dart';
 import 'package:ui/views/screens/textfield_detail.dart';
 
@@ -241,7 +243,10 @@ class MainScreen extends StatelessWidget {
           Container(
             padding: EdgeInsets.symmetric(horizontal: 16.0),
             child: ElevatedButton(
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>ColumnLayoutDetail()),
+              );
+            },
             style: ElevatedButton.styleFrom(
                 backgroundColor: Color.fromRGBO(33, 150, 243, 0.3),
                 shape: RoundedRectangleBorder(
@@ -283,7 +288,10 @@ class MainScreen extends StatelessWidget {
           Container(
             padding: EdgeInsets.symmetric(horizontal: 16.0),
             child: ElevatedButton(
-            onPressed: (){},
+            onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => RowLayoutDetail()),
+              );
+            },
             style: ElevatedButton.styleFrom(
                 backgroundColor: Color.fromRGBO(33, 150, 243, 0.3),
                 shape: RoundedRectangleBorder(
