@@ -25,6 +25,7 @@ class _TextfieldDetailState extends State<TextfieldDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: Text(
           "TextField",
           style: TextStyle(

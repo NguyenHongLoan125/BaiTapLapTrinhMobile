@@ -11,6 +11,7 @@ class Images extends StatelessWidget {
           icon: Icon(Icons.chevron_left, color: Colors.blue, size: 30),
           onPressed: () => Navigator.pop(context),
         ),
+        centerTitle: true,
         title: Text(
             "Images",
           style: TextStyle(
