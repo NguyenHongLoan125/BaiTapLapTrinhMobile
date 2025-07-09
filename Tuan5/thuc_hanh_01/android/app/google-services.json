@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409327073895",
+    "firebase_url": "https://thuchanh01-1c2e7-default-rtdb.firebaseio.com",
+    "project_id": "thuchanh01-1c2e7",
+    "storage_bucket": "thuchanh01-1c2e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409327073895:android:19d28db02c08814b7672c2",
+        "android_client_info": {
+          "package_name": "com.tuan5.thucHanh01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409327073895-d3fgv4eldc0qd9t5n0n85i3562anrc49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tuan5.thucHanh01",
+            "certificate_hash": "a5aa881bffda5d3e4363a572becad083bbddb626"
+          }
+        },
+        {
+          "client_id": "409327073895-i97b75781nmu127bgfrlbf3b5k6bana0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYCWFX2ZtJLspQwjBSzfoLi6EixGCdZO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409327073895-i97b75781nmu127bgfrlbf3b5k6bana0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
